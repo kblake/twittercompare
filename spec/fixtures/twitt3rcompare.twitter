@@ -1,0 +1,15 @@
+HTTP/1.1 200 OK
+Date: Thu, 23 Oct 2008 21:18:09 GMT
+Server: hi
+Last-Modified: Thu, 23 Oct 2008 21:18:09 GMT
+Status: 200 OK
+ETag: "3327f96a86a1eef73226c658353e04b2"
+Pragma: no-cache
+Cache-Control: no-cache, no-store, must-revalidate, pre-check=0, post-check=0
+Content-Type: application/json; charset=utf-8
+Content-Length: 645
+Expires: Tue, 31 Mar 1981 05:00:00 GMT
+Set-Cookie: _twitter_sess=BAh7BzoHaWQiJTJjYjk4ZjVlYzAyZWVlMGJlYjdiZDc3ZDBkMzhiZTNiIgpm%250AbGFzaElDOidBY3Rpb25Db250cm9sbGVyOjpGbGFzaDo6Rmxhc2hIYXNoewAG%250AOgpAdXNlZHsA--cab567c84bd79090cf0f00e227c0f0e48b51df27; domain=.twitter.com; path=/
+Connection: close
+
+[{"description":"Female Evangelist","url":"http:\/\/testdriveninjax.blogspot.com","name":"cgrusden[:leerjet]","followers_count":105,"protected":false,"status":{"in_reply_to_user_id":13984262,"created_at":"Thu Oct 23 20:58:24 +0000 2008","text":"@themcgruff Hell yea dude! World Series rox","truncated":false,"in_reply_to_status_id":972618009,"favorited":false,"id":972628922,"source":"<a href=\"http:\/\/iconfactory.com\/software\/twitterrific\">twitterrific<\/a>"},"profile_image_url":"http:\/\/s3.amazonaws.com\/twitter_production\/profile_images\/36570332\/me_normal.jpg","location":"Jacksonville, FL","id":10187892,"screen_name":"cgrusden"}]

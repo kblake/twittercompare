@@ -1,0 +1,12 @@
+development: &non_production_settings
+  site_url: http://localhost:3000
+  site_name: Bort
+  admin_email: bort@bort.com
+  
+test:
+  <<: *non_production_settings
+  
+production:
+  site_url: http://www.twittercompare.com
+  site_name: TwitterCompare - Finding mutual followers between you and a friend
+  admin_email: corey.grusden@gmail.com

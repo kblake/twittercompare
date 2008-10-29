@@ -1,0 +1,5 @@
+%h2== Mutual followers between you and #{@friend}
+
+.mutual_friend_list
+  = render :partial => 'mutual_friend', :collection => @results
+

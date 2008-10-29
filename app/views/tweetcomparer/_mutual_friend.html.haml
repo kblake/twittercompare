@@ -1,0 +1,7 @@
+.mutual_friend
+  %img{:src => mutual_friend[2]}
+  %a{:href => "http://twitter.com/#{mutual_friend[0]}"}
+    = mutual_friend[0]
+  == (#{mutual_friend[1]})
+  %br
+  = link_to 'Block', "http://twitter.com/blocks/confirm/#{mutual_friend[3]}"

@@ -1,0 +1,23 @@
+development:
+  # Mysql Settings
+  adapter: mysql
+  encoding: utf8
+  database: twittercompare_development
+  username: root
+  password:
+
+test:
+  # Mysql Settings
+  adapter: mysql
+  encoding: utf8
+  database: twittercompare_test
+  username: root
+  password:
+
+production:
+  # Mysql Settings
+  adapter: mysql
+  encoding: utf8
+  database: twittercompare_production
+  username: root
+  password:

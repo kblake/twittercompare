@@ -1,0 +1,5 @@
+h2. TwitterCompare
+
+bq. Find mutual friends between two twitteraccounts!
+
+Only matches first 100 followers at the moment
