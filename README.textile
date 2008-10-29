@@ -4,7 +4,7 @@ bq. Find mutual friends between two twitteraccounts!
 
 Only matches first 100 followers at the moment
 
-.h2 To-do
+h2. To-do
 
 Need to persist the followers that are retrieved for future results (so twitter doesn't get pounded)
 Grab all the followers, not just the first 100
