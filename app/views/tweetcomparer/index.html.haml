@@ -1,11 +1,13 @@
-- form_tag(compare_path) do 
-  = label_tag "Your Twitter Name"
+- form_tag(compare_path, :id=>"compare_form") do 
+  = label_tag nil, "Your Twitter Name", :class=>"mylabelstyle"
   %br
-  = text_field_tag "me"
+  = text_field_tag "me", nil,:class=>"myinputstyle"
   %br
-  = label_tag "Who are you comparing your friends to?"
+  = label_tag nil, "Who are you comparing your friends to?", :class=>"mylabelstyle"
   %br
-  = text_field_tag "friend"
+  = text_field_tag "friend", nil, :class=>"myinputstyle"
   %br
   = submit_tag "Mutual Friends"
+
+= javascript_tag "$('me').focus();"
   

@@ -16,6 +16,23 @@
         border:1px solid black;
         padding:5px;
       }
+  
+    .myinputstyle {
+      border: 1px solid #454743;
+      font-family: tahoma, helvetica, sans-serif;
+      font-style: normal;
+      font-size: 19px;
+      color: #454743;
+    }
+
+    .mylabelstyle {
+      font-family: tahoma, helvetica, sans-serif;
+      font-style: bold;
+      font-size: 17px;
+      color: #82983e;
+    }
+
+    .signature { font-size: 13px; font-style: normal;}
     </style>
 	</head>
 	<body>
@@ -25,8 +42,10 @@
 				<%= content_tag(:div, flash[:warning], :class => 'flash-warning') if flash[:warning] %>
 				<%= yield :layout %>
 			</div>
-		</div>
-  Built by <a href="http://blog.divergentsoftware.com">Corey Grusden</a> of <a href="http://www.hashrocket.com">Hashrocket</a>.
+    </div>
+  <div class="mylabelstyle signature">
+    Built by <a href="http://blog.divergentsoftware.com">Corey Grusden</a> of <a href="http://www.hashrocket.com">Hashrocket</a>.
+  </div>
     <script type="text/javascript">
       var gaJsHost = (("https:" == document.location.protocol) ? "https://ssl." : "http://www.");
       document.write(unescape("%3Cscript src='" + gaJsHost + "google-analytics.com/ga.js' type='text/javascript'%3E%3C/script%3E"));
