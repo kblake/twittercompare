@@ -32,7 +32,27 @@
       color: #82983e;
     }
 
-    .signature { font-size: 13px; font-style: normal;}
+    .signature { 
+      font-size: 13px; 
+      font-style: normal; 
+      width: 500px; 
+      margin-left: auto; 
+      margin-right: auto;
+      text-align:left;
+      margin-top: 50px;
+    }
+
+    body {
+      text-align: center;
+      min-width: 500px;
+    }
+    #compare_form {
+      text-align: left;
+      width: 500px;
+      margin-left: auto;
+      margin-right: auto;
+    }
+    
     </style>
 	</head>
 	<body>
@@ -41,12 +61,14 @@
 				<%= content_tag(:div, flash[:notice], :class => 'flash-notice') if flash[:notice] %>
 				<%= content_tag(:div, flash[:warning], :class => 'flash-warning') if flash[:warning] %>
 				<%= yield :layout %>
-			</div>
-    </div>
-  <div class="mylabelstyle signature">
+        
+      </div>
+       <div class="mylabelstyle signature">
     Built by <a href="http://blog.divergentsoftware.com">Corey Grusden</a> of <a href="http://www.hashrocket.com">Hashrocket</a>.
   </div>
-    <script type="text/javascript">
+
+    </div>
+     <script type="text/javascript">
       var gaJsHost = (("https:" == document.location.protocol) ? "https://ssl." : "http://www.");
       document.write(unescape("%3Cscript src='" + gaJsHost + "google-analytics.com/ga.js' type='text/javascript'%3E%3C/script%3E"));
       </script>
